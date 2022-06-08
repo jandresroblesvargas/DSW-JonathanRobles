@@ -1,0 +1,30 @@
+header{
+    background-color: blue;
+    padding: 20px;
+}
+nav{
+    background-color: red;
+    padding: 20px;
+    
+}
+section{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+article{
+    background-color: grey;
+    padding: 120px;
+    grid-column:1/4 ;
+}
+aside{
+    background-color: rgb(112, 255, 0, 0.993);
+    padding: 30px;
+    grid-column:4/5 ;
+}
+footer{
+    background-color: red;
+    color: beige;
+    padding: 10px;
+}   
